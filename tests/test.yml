@@ -1,5 +1,3 @@
 ---
-- hosts: localhost
-  remote_user: root
-  roles:
-    - { role: 4linuxdevops.confbase }
+- hosts: all
+  roles: 4linuxdevops.confbase
