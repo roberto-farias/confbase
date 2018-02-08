@@ -2,5 +2,5 @@
 - name: Teste
   hosts: all
   roles:
-    - { role: 4linuxdevops.confbase }
+    - { ../../4linuxdevops.confbase }
 
