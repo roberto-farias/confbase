@@ -1,3 +1,5 @@
 ---
-  hosts: all
-  roles: ../../4linuxdevops.confbase
+- hosts: all
+  remote_user: root
+  roles:
+    - ../../confbase
