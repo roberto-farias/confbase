@@ -1,0 +1,6 @@
+---
+- name: Teste
+  hosts: all
+  roles:
+    - { role: 4linuxdevops.confbase }
+---
