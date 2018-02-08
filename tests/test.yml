@@ -1,4 +1,3 @@
 ---
-- name: Teste
   hosts: all
   roles: ../../4linuxdevops.confbase
